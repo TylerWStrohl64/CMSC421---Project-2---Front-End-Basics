@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Picture Poker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Picture Poker</h1>
+        <button class="how-to-play-button" onclick="openPopup()">How To Play</button>
+      </header>
+
+      <nav>
+        <a href="index.html"><button>Home</button></a> &nbsp;
+        <a href="rps.html" ><button>Rock-Paper-Scissor-Lizzar-Spock</button></a> &nbsp; 
+        <a href="memMatch.html" ><button>Memory Match</button></a>
+        <a href="picturePoker.html"><button>Picture Poker</button></a> &nbsp;
+      </nav>
+
+      <main class = "picPokerMain">
+
+        <div id="luigiPic">
+        </div>
+
+        <h2 id="luigiCoinsHeading">Luigi's Coins: <span id="luigiCoins">0</span></h2>
+
+        <div class = "luigiCards">
+          <div class = "luigiCard" id = "lCard1"> </div>
+          <div class = "luigiCard" id = "lCard2"> </div>
+          <div class = "luigiCard" id = "lCard3"> </div>
+          <div class = "luigiCard" id = "lCard4"> </div>
+          <div class = "luigiCard" id = "lCard5"> </div>
+        </div>
+
+          <div id = "hold">
+          </div>
+
+          <h2 id="playerCoinsHeading">Your Coins: <span id="playerCoins">0</span></h2>
+
+          <div class = "myCards">
+            <div class = "myCard" id = "mCard1"> </div>
+            <div class = "myCard" id = "mCard2"> </div>
+            <div class = "myCard" id = "mCard3"> </div>
+            <div class = "myCard" id = "mCard4"> </div>
+            <div class = "myCard" id = "mCard5"> </div>
+          </div>
+
+          <h2>These are your cards.</h2>
+
+      </main>
+      <footer>
+        Made by Tyler W. Strohl<br />
+        <a href="mailto:twstrohl@millersville.edu">twstrohl@millersville.edu</a>
+      </footer>
+      <!-- Wrapper div ends here -->
+    </div>
+    <script type="text/javascript" src="scripts/picturePoker.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Memory Match</h1>
+        <button class="how-to-play-button" onclick="openPopup()">How To Play</button>
+      </header>
+
+      <nav>
+        <a href="index.html"><button>Home</button></a> 
+        <a href="rps.html" ><button>Rock-Paper-Scissor-Lizzar-Spock</button></a>
+        <a href="memMatch.html" ><button>Memory Match</button></a>
+        <a href="picturePoker.html"><button>Picture Poker</button></a>
+      </nav>
+
+      <div class="game-info">
+        <p><span class="label">Moves:</span> <span id="moves">0</span></p>
+        <p><span class="label">Time:</span> <span id="timer">0</span> seconds</p>
+      </div>
+        <div class="game-board" id="gameBoard"></div>
+        <script src="scripts/memMatch.js"></script>
+
+      <footer>
+        Made by Tyler W. Strohl<br />
+        <a href="mailto:twstrohl@millersville.edu">twstrohl@millersville.edu</a>
+      </footer>
+      <!-- Wrapper div ends here -->
+    </div>
+  </body>
+</html>
